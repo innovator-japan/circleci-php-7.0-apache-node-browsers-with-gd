@@ -8,3 +8,5 @@ RUN sudo apt-get update \
 RUN sudo docker-php-ext-install gd exif
 
 RUN sudo docker-php-ext-install pdo_mysql
+
+RUN sudo docker-php-ext-install zip
