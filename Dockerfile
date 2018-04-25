@@ -6,3 +6,5 @@ RUN sudo apt-get update \
     && sudo apt-get install -y libpng-dev libjpeg62-turbo-dev
 
 RUN sudo docker-php-ext-install gd exif
+
+RUN sudo docker-php-ext-install pdo_mysql
